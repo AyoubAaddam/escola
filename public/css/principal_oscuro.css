@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #111; /* Cambia el color de fondo para todo el cuerpo de la página según tus preferencias */
+    color: #fff; /* Cambia el color del texto principal */
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Cambiamos a dirección de columna para que los elementos estén uno encima del otro */
+    text-align: center; /* Alineamos el contenido al centro */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    background-color: #222; /* Cambia el color de fondo de las secciones según tus preferencias */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agregamos una sombra a las secciones */
+    max-width: 600px; /* Limitamos el ancho máximo de las secciones */
+    width: 100%; /* Hacemos que las secciones ocupen todo el ancho disponible */
+    text-align: left; /* Alineamos el contenido de las secciones a la izquierda */
+    margin: 20px 0; /* Agregamos espacio entre las secciones */
+}
+
+/* Estilos para los encabezados de las secciones */
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #fff; /* Cambia el color del encabezado de la sección */
+}
+
+/* Estilos para el contenido de las secciones */
+section p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #ccc; /* Cambia el color del texto de la sección */
+}
+
+/* Estilos para la dirección de contacto */
+address {
+    font-style: normal;
+    color: #ccc; /* Cambia el color del texto de la dirección de contacto */
+}
+nav{
+    background-color: #cacac8;
+}
